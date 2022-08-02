@@ -1,0 +1,6 @@
+laravel new lara_multitask
+php artisan make:model Admins -mcr
+php artisan make:model Customers -mcr
+php artisan make:model Comments -mcr
+php artisan migrate
+php artisan serve
